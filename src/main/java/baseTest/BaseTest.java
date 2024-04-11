@@ -61,7 +61,7 @@ public class BaseTest {
     @AfterClass
     public void closeBrowser() {
         logger.info("Closing the browser");
-        driver.close();
+        driver.quit();
     }
 
 
