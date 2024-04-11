@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <listeners>
+       <listener class-name="baseTest.Listeners"/>
+    </listeners>
+    <test name="chromeTest">
+        <classes>
+            <class name="scripts.FlipcartTest"/>
+        </classes>
+    </test>
+</suite>
